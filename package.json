@@ -1,0 +1,28 @@
+{
+  "name": "cloud-build-notifications",
+  "version": "1.0.0",
+  "description": "Google Cloud Function that allows you to easily receive Cloud Build status updates",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thedanielforum/cloud-build-notifications.git"
+  },
+  "author": "Daniel Dyrnes <thedanielforum@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thedanielforum/cloud-build-notifications/issues"
+  },
+  "homepage": "https://github.com/thedanielforum/cloud-build-notifications#readme",
+  "dependencies": {
+    "@slack/client": "^5.0.0",
+    "express": "^4.16.4",
+    "handlebars": "^4.1.1",
+    "lodash": "^4.17.11",
+    "nodemailer": "^6.1.0",
+    "sprintf-js": "^1.1.2"
+  }
+}
